@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #000;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 50px 0;
+  background-color: #e9e1e1;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__img {
+  display: block;
+  border-radius: 50%;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list__item {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
